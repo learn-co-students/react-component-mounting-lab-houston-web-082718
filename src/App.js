@@ -11,9 +11,9 @@ class App extends Component {
 
 
   //Your code here:
-
-
-
+  componentDidMount () { //Since App is the top level component, its componentDidMount method will be invoked before any other child components are even constructed.
+    this.handleAddTimer()
+  }
 
 
 
